@@ -21,6 +21,11 @@ public class BaseNew
 	Reporter.log("Launching browser",true);
 	Utility.wait(driver, 1000);
 	}
+	
+	
+	
+	
+	
 	 
 	public static void closingBrowser(WebDriver driver) throws 
 	InterruptedException
