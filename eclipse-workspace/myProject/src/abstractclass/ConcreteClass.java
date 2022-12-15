@@ -9,9 +9,6 @@ public class ConcreteClass extends Test
 		c.demo3();
 		c.demo2();
 		
-
-	
-	
 	}
 	public void demo1()//completing incomplete method from abstrasct clas
 	{
