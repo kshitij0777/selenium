@@ -125,12 +125,12 @@
       <![CDATA[closing browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-12-07T09:02:42 IST" name="Default suite" finished-at="2022-12-07T09:03:13 IST" duration-ms="30533">
+  <suite started-at="2022-12-15T18:29:07 IST" name="Default suite" finished-at="2022-12-15T18:29:40 IST" duration-ms="32857">
     <groups>
     </groups>
-    <test started-at="2022-12-07T09:02:42 IST" name="Default test" finished-at="2022-12-07T09:03:13 IST" duration-ms="30533">
+    <test started-at="2022-12-15T18:29:07 IST" name="Default test" finished-at="2022-12-15T18:29:40 IST" duration-ms="32857">
       <class name="maven07.ValidateNeoStoxUserNameUsingPropertyFile">
-        <test-method is-config="true" signature="launchNeoStox()[pri:0, instance:maven07.ValidateNeoStoxUserNameUsingPropertyFile@7fa98a66]" started-at="2022-12-07T09:02:42 IST" name="launchNeoStox" finished-at="2022-12-07T09:02:49 IST" duration-ms="6870" status="PASS">
+        <test-method is-config="true" signature="launchNeoStox()[pri:0, instance:maven07.ValidateNeoStoxUserNameUsingPropertyFile@7fa98a66]" started-at="2022-12-15T18:29:07 IST" name="launchNeoStox" finished-at="2022-12-15T18:29:13 IST" duration-ms="6399" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[reading value of url from property file]]>
@@ -143,7 +143,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- launchNeoStox -->
-        <test-method is-config="true" signature="loginToNeoStox()[pri:0, instance:maven07.ValidateNeoStoxUserNameUsingPropertyFile@7fa98a66]" started-at="2022-12-07T09:02:49 IST" name="loginToNeoStox" finished-at="2022-12-07T09:03:01 IST" duration-ms="12118" status="PASS">
+        <test-method is-config="true" signature="loginToNeoStox()[pri:0, instance:maven07.ValidateNeoStoxUserNameUsingPropertyFile@7fa98a66]" started-at="2022-12-15T18:29:13 IST" name="loginToNeoStox" finished-at="2022-12-15T18:29:28 IST" duration-ms="14218" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[reading value of mobNum from property file]]>
@@ -186,7 +186,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginToNeoStox -->
-        <test-method signature="validateAcBalance()[pri:0, instance:maven07.ValidateNeoStoxUserNameUsingPropertyFile@7fa98a66]" started-at="2022-12-07T09:03:01 IST" name="validateAcBalance" finished-at="2022-12-07T09:03:01 IST" duration-ms="89" status="PASS">
+        <test-method signature="validateAcBalance()[pri:0, instance:maven07.ValidateNeoStoxUserNameUsingPropertyFile@7fa98a66]" started-at="2022-12-15T18:29:28 IST" name="validateAcBalance" finished-at="2022-12-15T18:29:28 IST" duration-ms="81" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[waiting for 1000milis]]>
@@ -205,7 +205,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- validateAcBalance -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:maven07.ValidateNeoStoxUserNameUsingPropertyFile@7fa98a66]" started-at="2022-12-07T09:03:01 IST" name="logOut" finished-at="2022-12-07T09:03:02 IST" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="logOut()[pri:0, instance:maven07.ValidateNeoStoxUserNameUsingPropertyFile@7fa98a66]" started-at="2022-12-15T18:29:28 IST" name="logOut" finished-at="2022-12-15T18:29:28 IST" duration-ms="198" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[waiting for 1000milis]]>
@@ -218,7 +218,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="loginToNeoStox()[pri:0, instance:maven07.ValidateNeoStoxUserNameUsingPropertyFile@7fa98a66]" started-at="2022-12-07T09:03:02 IST" name="loginToNeoStox" finished-at="2022-12-07T09:03:11 IST" duration-ms="9489" status="PASS">
+        <test-method is-config="true" signature="loginToNeoStox()[pri:0, instance:maven07.ValidateNeoStoxUserNameUsingPropertyFile@7fa98a66]" started-at="2022-12-15T18:29:28 IST" name="loginToNeoStox" finished-at="2022-12-15T18:29:39 IST" duration-ms="10816" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[reading value of mobNum from property file]]>
@@ -255,7 +255,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginToNeoStox -->
-        <test-method signature="validateUserName()[pri:0, instance:maven07.ValidateNeoStoxUserNameUsingPropertyFile@7fa98a66]" started-at="2022-12-07T09:03:11 IST" name="validateUserName" finished-at="2022-12-07T09:03:11 IST" duration-ms="52" status="FAIL">
+        <test-method signature="validateUserName()[pri:0, instance:maven07.ValidateNeoStoxUserNameUsingPropertyFile@7fa98a66]" started-at="2022-12-15T18:29:39 IST" name="validateUserName" finished-at="2022-12-15T18:29:39 IST" duration-ms="52" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Hi kshitij jadhav1] but found [Hi kshitij jadhav]]]>
@@ -307,7 +307,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- validateUserName -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:maven07.ValidateNeoStoxUserNameUsingPropertyFile@7fa98a66]" started-at="2022-12-07T09:03:11 IST" name="logOut" finished-at="2022-12-07T09:03:12 IST" duration-ms="567" status="PASS">
+        <test-method is-config="true" signature="logOut()[pri:0, instance:maven07.ValidateNeoStoxUserNameUsingPropertyFile@7fa98a66]" started-at="2022-12-15T18:29:39 IST" name="logOut" finished-at="2022-12-15T18:29:39 IST" duration-ms="222" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[waiting for 1000milis]]>
@@ -320,7 +320,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:maven07.ValidateNeoStoxUserNameUsingPropertyFile@7fa98a66]" started-at="2022-12-07T09:03:12 IST" name="closeApplication" finished-at="2022-12-07T09:03:13 IST" duration-ms="1084" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:maven07.ValidateNeoStoxUserNameUsingPropertyFile@7fa98a66]" started-at="2022-12-15T18:29:39 IST" name="closeApplication" finished-at="2022-12-15T18:29:40 IST" duration-ms="805" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[closing browser]]>
